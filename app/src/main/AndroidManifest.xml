@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xjy.smartcommunity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:label="@string/sign_up" />
+        <activity android:name=".activity.MainActivity" />
+        <activity
+            android:name=".activity.TiJianActivity"
+            android:label="@string/yu_yue_ti_jian" />
+        <activity
+            android:name=".activity.YuYueYiQiActivity"
+            android:label="@string/yu_yue_yi_qi" />
+        <activity
+            android:name=".activity.DangJianActivity"
+            android:label="@string/title_activity_dang_jian" />
+        <activity
+            android:name=".activity.DangJianDetailActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:label="@string/title_activity_dang_jian_detail" />
+        <activity
+            android:name=".activity.TiJianReportActivity"
+            android:label="@string/ti_jian_report" />
+        <activity
+            android:name=".activity.DateActivity"
+            android:label="@string/choose_date" />
+        <activity android:name=".activity.WuYeActivity" />
+        <activity android:name=".activity.PersonalInfoActivity" />
+        <activity android:name=".activity.TestActivity" />
+    </application>
+
+</manifest>

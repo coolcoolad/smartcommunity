@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">智慧社区</string>
+    <string name="server_host">http://192.168.0.101:8080/SmartCommAppServer</string>
+    <string name="server_host4">http://121.251.253.248:80/SmartCommAppServer</string>
+    <string name="server_host3">http://180.201.159.40:8080/SmartCommAppServer</string>
+    <string name="server_host1">http://192.168.1.106:8080/SmartCommAppServer</string>
+    <string name="server_host2">http://127.0.0.1:8080/SmartCommAppServer</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="password2">确认密码</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_up">注册</string>
+    <string name="title_activity_dang_jian">党建</string>
+    <string name="title_activity_dang_jian_detail">党建信息</string>
+    <string name="yu_yue_ti_jian">预约体检</string>
+    <string name="yu_yue_yi_qi">预约仪器</string>
+    <string name="choose_date">选择日期</string>
+    <string name="ti_jian_report">体检报告</string>
+    <string name="ti_jian_liu_cheng">体检流程</string>
+    <string name="wu_ye_guan_jia">物业管家</string>
+    <string name="wu_ye_zhi_nan">物业指南</string>
+    <string name="personal_info">个人信息</string>
+    <string name="name">姓名</string>
+    <string name="gender">性别</string>
+    <string name="age">年龄</string>
+    <string name="telephone">手机号</string>
+    <string name="submit">提交</string>
+    <string name="logout">退出登录</string>
+</resources>
